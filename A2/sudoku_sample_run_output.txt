@@ -1,0 +1,47 @@
+Solving board:
+[2, 0, 0, 0, 0, 0, 0, 6, 0]
+[0, 0, 0, 0, 7, 5, 0, 3, 0]
+[0, 4, 8, 0, 9, 0, 1, 0, 0]
+[0, 0, 0, 3, 0, 0, 0, 0, 0]
+[3, 0, 0, 0, 1, 0, 0, 0, 9]
+[0, 0, 0, 0, 0, 8, 0, 0, 0]
+[0, 0, 1, 0, 2, 0, 5, 7, 0]
+[0, 8, 0, 7, 3, 0, 0, 0, 0]
+[0, 9, 0, 0, 0, 0, 0, 0, 4]
+Using Model 1
+=======================================================
+GAC
+CSP Sudoku-M1 solved. CPU Time used = 1.043599
+CSP Sudoku-M1  Assignments = 
+Var--V1,1  =  2     Var--V1,2  =  7     Var--V1,3  =  3     Var--V1,4  =  4     Var--V1,5  =  8     Var--V1,6  =  1     Var--V1,7  =  9     Var--V1,8  =  6     Var--V1,9  =  5     Var--V2,1  =  9     Var--V2,2  =  1     Var--V2,3  =  6     Var--V2,4  =  2     Var--V2,5  =  7     Var--V2,6  =  5     Var--V2,7  =  4     Var--V2,8  =  3     Var--V2,9  =  8     Var--V3,1  =  5     Var--V3,2  =  4     Var--V3,3  =  8     Var--V3,4  =  6     Var--V3,5  =  9     Var--V3,6  =  3     Var--V3,7  =  1     Var--V3,8  =  2     Var--V3,9  =  7     Var--V4,1  =  8     Var--V4,2  =  5     Var--V4,3  =  9     Var--V4,4  =  3     Var--V4,5  =  4     Var--V4,6  =  7     Var--V4,7  =  6     Var--V4,8  =  1     Var--V4,9  =  2     Var--V5,1  =  3     Var--V5,2  =  6     Var--V5,3  =  7     Var--V5,4  =  5     Var--V5,5  =  1     Var--V5,6  =  2     Var--V5,7  =  8     Var--V5,8  =  4     Var--V5,9  =  9     Var--V6,1  =  1     Var--V6,2  =  2     Var--V6,3  =  4     Var--V6,4  =  9     Var--V6,5  =  6     Var--V6,6  =  8     Var--V6,7  =  7     Var--V6,8  =  5     Var--V6,9  =  3     Var--V7,1  =  4     Var--V7,2  =  3     Var--V7,3  =  1     Var--V7,4  =  8     Var--V7,5  =  2     Var--V7,6  =  9     Var--V7,7  =  5     Var--V7,8  =  7     Var--V7,9  =  6     Var--V8,1  =  6     Var--V8,2  =  8     Var--V8,3  =  5     Var--V8,4  =  7     Var--V8,5  =  3     Var--V8,6  =  4     Var--V8,7  =  2     Var--V8,8  =  9     Var--V8,9  =  1     Var--V9,1  =  7     Var--V9,2  =  9     Var--V9,3  =  2     Var--V9,4  =  1     Var--V9,5  =  5     Var--V9,6  =  6     Var--V9,7  =  3     Var--V9,8  =  8     Var--V9,9  =  4     
+bt_search finished
+Search made 147 variable assignments and pruned 1802 variable values
+Solution
+[2, 7, 3, 4, 8, 1, 9, 6, 5]
+[9, 1, 6, 2, 7, 5, 4, 3, 8]
+[5, 4, 8, 6, 9, 3, 1, 2, 7]
+[8, 5, 9, 3, 4, 7, 6, 1, 2]
+[3, 6, 7, 5, 1, 2, 8, 4, 9]
+[1, 2, 4, 9, 6, 8, 7, 5, 3]
+[4, 3, 1, 8, 2, 9, 5, 7, 6]
+[6, 8, 5, 7, 3, 4, 2, 9, 1]
+[7, 9, 2, 1, 5, 6, 3, 8, 4]
+Using Model 2
+=======================================================
+GAC
+CSP Sudoku-M2 solved. CPU Time used = 5.595238
+CSP Sudoku-M2  Assignments = 
+Var--V1,1  =  2     Var--V1,2  =  7     Var--V1,3  =  3     Var--V1,4  =  4     Var--V1,5  =  8     Var--V1,6  =  1     Var--V1,7  =  9     Var--V1,8  =  6     Var--V1,9  =  5     Var--V2,1  =  9     Var--V2,2  =  1     Var--V2,3  =  6     Var--V2,4  =  2     Var--V2,5  =  7     Var--V2,6  =  5     Var--V2,7  =  4     Var--V2,8  =  3     Var--V2,9  =  8     Var--V3,1  =  5     Var--V3,2  =  4     Var--V3,3  =  8     Var--V3,4  =  6     Var--V3,5  =  9     Var--V3,6  =  3     Var--V3,7  =  1     Var--V3,8  =  2     Var--V3,9  =  7     Var--V4,1  =  8     Var--V4,2  =  5     Var--V4,3  =  9     Var--V4,4  =  3     Var--V4,5  =  4     Var--V4,6  =  7     Var--V4,7  =  6     Var--V4,8  =  1     Var--V4,9  =  2     Var--V5,1  =  3     Var--V5,2  =  6     Var--V5,3  =  7     Var--V5,4  =  5     Var--V5,5  =  1     Var--V5,6  =  2     Var--V5,7  =  8     Var--V5,8  =  4     Var--V5,9  =  9     Var--V6,1  =  1     Var--V6,2  =  2     Var--V6,3  =  4     Var--V6,4  =  9     Var--V6,5  =  6     Var--V6,6  =  8     Var--V6,7  =  7     Var--V6,8  =  5     Var--V6,9  =  3     Var--V7,1  =  4     Var--V7,2  =  3     Var--V7,3  =  1     Var--V7,4  =  8     Var--V7,5  =  2     Var--V7,6  =  9     Var--V7,7  =  5     Var--V7,8  =  7     Var--V7,9  =  6     Var--V8,1  =  6     Var--V8,2  =  8     Var--V8,3  =  5     Var--V8,4  =  7     Var--V8,5  =  3     Var--V8,6  =  4     Var--V8,7  =  2     Var--V8,8  =  9     Var--V8,9  =  1     Var--V9,1  =  7     Var--V9,2  =  9     Var--V9,3  =  2     Var--V9,4  =  1     Var--V9,5  =  5     Var--V9,6  =  6     Var--V9,7  =  3     Var--V9,8  =  8     Var--V9,9  =  4     
+bt_search finished
+Search made 81 variable assignments and pruned 464 variable values
+Solution
+[2, 7, 3, 4, 8, 1, 9, 6, 5]
+[9, 1, 6, 2, 7, 5, 4, 3, 8]
+[5, 4, 8, 6, 9, 3, 1, 2, 7]
+[8, 5, 9, 3, 4, 7, 6, 1, 2]
+[3, 6, 7, 5, 1, 2, 8, 4, 9]
+[1, 2, 4, 9, 6, 8, 7, 5, 3]
+[4, 3, 1, 8, 2, 9, 5, 7, 6]
+[6, 8, 5, 7, 3, 4, 2, 9, 1]
+[7, 9, 2, 1, 5, 6, 3, 8, 4]
+=======================================================

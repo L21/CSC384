@@ -1,0 +1,30 @@
+Question (a)
+P(s|g) = 1.0 P(-s|g) = 0.0
+
+Question (b)
+P(w|b,-e) = 0.68 P(-w|b,-e) = 0.32
+
+Question (c)
+P(g|s) = 0.5 P(-g|s) = 0.5 P(g|-s) = 0.0 P(-g|-s) = 1.0
+
+Question (d)
+P(g|s,w) = 0.5 P(-g|s,w) = 0.5 P(g|s,-w) = 0.5 P(-g|s,-w) = 0.5
+P(g|-s,w) = 0.0 P(-g|-s,w) = 1.0 P(g|-s,-w) = 0.0 P(-g|-s,-w) = 1.0
+
+Question (e)
+Since P(G|S,W) = P(G|S) (i.e., this equation holds for every value of G, S, and W)
+we have that G is conditionally independent of W given S.
+
+Question (f)
+P(g|w) = 0.15265998457979954 P(-g|w) = 0.8473400154202004 P(g|-w) = 0.01336753983256819 P(-g|-w) = 0.9866324601674318
+
+Question (g)
+Since the probability of G changes as we change the value of W, G is not independent of W
+However d and e show that given S G becomes independent of W
+
+Extra Note
+VE can compute the unconditional probability of a variable by selecting no evidence variables
+P(g) = 0.04950000000000001 P(-g) = 0.9505
+P(e) = 0.1 P(-e) = 0.9
+
+Now you can experiment with the Asia network
